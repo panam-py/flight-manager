@@ -19,5 +19,6 @@ tommorow = tommorow.strftime("%d/%m/%Y")
 nextSixMonths = nextSixMonths.strftime("%d/%m/%Y")
 
 result = newSearch.find_flights(codes[0], codes[1], tommorow, nextSixMonths)
+print(result)
 
 
