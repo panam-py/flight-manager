@@ -1,5 +1,5 @@
 import requests
-API_KEY = "U19Mn7imbh11CpqqP2JW5bsW5AVjPT24"
+API_KEY = input("Enter your Tequila API key: ")
 TEQUILA_ENDPOINT_LOCATIONS = "https://tequila-api.kiwi.com/locations/query"
 TEQUILA_ENDPOINT_SEARCH = "https://tequila-api.kiwi.com/v2/search"
 
