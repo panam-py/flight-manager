@@ -50,6 +50,5 @@ class FlightSearch:
         flights = requests.get(url=TEQUILA_ENDPOINT_SEARCH, params=params, headers=header)
         flights = flights.json()["data"][0]
         text = f"It only costs ${flights['price']} to travel from {flights['cityFrom']}-{flights['cityCodeFrom']} to {flights['cityTo']}-{flights['cityCodeTo']} from {date_from} to {date_to}"
-        print(text)
         return text
 
